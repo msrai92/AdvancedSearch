@@ -2,6 +2,8 @@
 This Project is for a job application. The purpose is to allow user to search through a list of patients. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+
+
 Other technologies used where Bootstrap and Angualr Material 
 ## Development server
 
