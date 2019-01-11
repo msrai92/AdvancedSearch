@@ -1,0 +1,39 @@
+.Search{
+    position: absolute;
+    top: 10%;
+    width: 51%;
+    margin: auto;
+    left: 70%;
+    flex-direction: column;
+}
+
+.List {
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    flex-direction: column;
+}
+
+table, td, th {
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+.total{
+    position: absolute;
+    top: 50%;
+}

@@ -1,0 +1,22 @@
+<div>
+  <mat-dialog-content>
+    <div><label>Name: </label><span>{{ data.name }}</span></div>
+    <div><label>Mr: </label><span>{{ data.mr }}</span></div>
+    <div><label>ID: </label><span>{{ data.idnum }}</span></div>
+    <div><label>Provider:</label><span>{{ data.prov }}</span></div>
+    <div><label>Insurance:</label><span>{{ data.insurance }}</span></div>
+    <div><label>Address:</label><span>{{ data.address }}</span></div>
+    <div><label>City:</label><span>{{ data.city }}</span></div>
+    <div><label>Street:</label><span>{{ data.st }}</span></div>
+    <div><label>Phone:</label><span>{{ data.phone }}</span></div>
+    <div><label>DOB:</label><span>{{ data.dob }}</span></div>
+    <div><label>Admit:</label><span>{{ data.admit }}</span></div>
+    <div><label>DC:</label><span>{{ data.dc }}</span></div>
+  
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <div>
+      <button (click)="exit()">Exit</button>
+    </div>
+  </mat-dialog-actions>
+</div>

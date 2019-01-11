@@ -1,0 +1,53 @@
+
+<div>
+  <div style="float: left">
+      <h1 >Patients</h1>
+  </div>
+  
+  <div class="Search">
+    <button (click)="openAdvance()">Advanced</button>
+  </div>
+
+  <div class="List">
+    <table>
+      <thead>
+        <tr>
+          <td>NAME</td>
+          <td>MR</td>
+          <td>ID NUM</td>
+          <td>PROV</td>
+          <td>INSURANCE</td>
+          <td>ADDRESS</td>
+          <td>CITY</td>
+          <td>ST</td>
+          <td>PHONE</td>
+          <td>DOB</td>
+          <td>ADMIT</td>
+          <td>DC</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of patients;" (click)="openPatient(p)">
+          <td>{{p.name}}</td>
+          <td>{{p.mr}}</td>
+          <td>{{p.idnum}}</td>
+          <td>{{p.prov}}</td>
+          <td>{{p.insurance}}</td>
+          <td>{{p.address}}</td>
+          <td>{{p.city}}</td>
+          <td>{{p.st}}</td>
+          <td>{{p.phone}}</td>
+          <td>{{p.dob}}</td>
+          <td>{{p.admit}}</td>
+          <td>{{p.dc}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="total">
+    <span># Number of Patients: {{total}} </span>
+  </div>
+
+
+
+</div>
